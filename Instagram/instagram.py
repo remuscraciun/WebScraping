@@ -8,9 +8,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 import wget
 import os
-import keyword
-import os.path
-from os import path
 
 # Credentials and search criteria
 username =  # ADD YOUR USERNAME
