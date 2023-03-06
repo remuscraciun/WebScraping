@@ -67,8 +67,8 @@ images = [image.get_attribute('src') for image in images]
 
 # Create folder where images are getting downloaded
 path = os.getcwd()
-path = os.path.join(path, keyword[1:])
-if os.path.isdir('cats') == False:
+path = os.path.join(path, keyword)
+if os.path.isdir(keyword) == False:
     os.mkdir(path)
 
 print(images)
